@@ -12,4 +12,5 @@ for k in range(4):
             n = n + 1
 
     pi = 4 * (n / N)
-    print(f'经过{N}轮的丢豆子，统计计算得出pi={pi}')
+    a = round(pi, 2)
+    print(f'经过{N}轮的丢豆子，统计计算得出pi={a}')
